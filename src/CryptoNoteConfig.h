@@ -85,9 +85,9 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-const int      P2P_DEFAULT_PORT                              = 20420;
+const int      P2P_DEFAULT_PORT                              = 42069;
 //TODO This port will be used by the daemon to interact with simlewallet
-const int      RPC_DEFAULT_PORT                              = 20421;
+const int      RPC_DEFAULT_PORT                              = 42070;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -105,7 +105,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 //TODO Add here your network seed nodes
-const std::initializer_list<const char*> SEED_NODES = {"192.99.56.112:20420", "54.37.72.229:20420"};
+const std::initializer_list<const char*> SEED_NODES = {"192.99.56.112:42069", "54.37.72.229:42069"};
 
 struct CheckpointData {
   uint32_t height;
