@@ -105,7 +105,9 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 //TODO Add here your network seed nodes
-const std::initializer_list<const char*> SEED_NODES = {"192.99.56.112:42069", "54.37.72.229:42069"};
+const std::initializer_list<const char*> SEED_NODES = {
+  "192.99.56.112:42069", 
+  "54.37.72.229:42069",};
 
 struct CheckpointData {
   uint32_t height;
